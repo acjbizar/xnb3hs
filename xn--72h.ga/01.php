@@ -86,7 +86,7 @@ else
 }
 
 $r = '<!doctype html>';
-$r .= '<html>';
+$r .= '<html dir="ltr" lang="en">';
 $r .= '<head>';
 $r .= '<meta charset="utf-8">';
 if($i !== 3) $r .= '<link rel="dns-prefetch" href="http://xn--72h.ga/">';
@@ -96,7 +96,6 @@ if($i !== 0) $r .= '<link rel="dns-prefetch" href="http://xn--b3h.ga/">';
 if(!isset($_GET['pause'])) $r .= '<meta http-equiv="Refresh" content="1; url=http://' . LOCAL . $thing[1] . '/">';
 $r .= '<meta property="fb:admins" content="509248955">';
 $r .= '<meta name="apple-mobile-web-app-capable" content="yes">';
-$r .= '<meta name="author" content="Alexander Christiaan Jacob">';
 $r .= '<meta name="description" property="og:description" content="By Alexander Christiaan Jacob, 2012.">';
 $r .= '<meta name="image" property="og:image" content="http://' . LOCAL . 'xn--72h.ga/image.jpg">';
 $r .= '<meta name="title" property="og:title" content="' . $thing[0] . '.ga">';
@@ -104,7 +103,7 @@ $r .= '<meta property="og:type" content="website">';
 $r .= '<meta property="og:url" content="http://' . LOCAL . $thing[2] . '/">';
 $r .= '<title>' . $thing[0] . '.ga</title>';
 $r .= '<link rel="apple-touch-icon-precomposed" href="http://' . LOCAL . 'xn--72h.ga/apple-touch-icon-precomposed.png">';
-$r .= '<link rel="author" href="http://acjs.net/ego/">';
+$r .= '<link rel="author" href="https://alexanderchristiaanjacob.com/" title="Alexander Christiaan Jacob">';
 $r .= '<link rel="canonical" href="http://' . LOCAL . $thing[2] . '/">';
 $r .= '<link rel="shortlink" href="http://' . LOCAL . $thing[0] . '.ga/">';
 $r .= '<style>';
