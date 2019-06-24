@@ -13,10 +13,10 @@ define('LOCAL', ($_SERVER['SERVER_ADDR'] === '127.0.0.1') ? 'localhost/' : '');
 if(!isset($_SESSION['n'])) $_SESSION['n'] = $i;
 
 $things = array(
-    0 => array('◷', 'xn--92h.tk', 'xn--b3h.tk'),
-    1 => array('◶', 'xn--82h.tk', 'xn--92h.tk'),
-    2 => array('◵', 'xn--72h.tk', 'xn--82h.tk'),
-    3 => array('◴', 'xn--b3h.tk', 'xn--72h.tk'),
+    0 => array('◷', 'xn--92h.ga', 'xn--b3h.ga'),
+    1 => array('◶', 'xn--82h.ga', 'xn--92h.ga'),
+    2 => array('◵', 'xn--72h.ga', 'xn--82h.ga'),
+    3 => array('◴', 'xn--b3h.ga', 'xn--72h.ga'),
 );
 
 $colors = array();
@@ -89,24 +89,24 @@ $r = '<!doctype html>';
 $r .= '<html>';
 $r .= '<head>';
 $r .= '<meta charset="utf-8">';
-if($i !== 3) $r .= '<link rel="dns-prefetch" href="http://xn--72h.tk/">';
-if($i !== 2) $r .= '<link rel="dns-prefetch" href="http://xn--82h.tk/">';
-if($i !== 1) $r .= '<link rel="dns-prefetch" href="http://xn--92h.tk/">';
-if($i !== 0) $r .= '<link rel="dns-prefetch" href="http://xn--b3h.tk/">';
+if($i !== 3) $r .= '<link rel="dns-prefetch" href="http://xn--72h.ga/">';
+if($i !== 2) $r .= '<link rel="dns-prefetch" href="http://xn--82h.ga/">';
+if($i !== 1) $r .= '<link rel="dns-prefetch" href="http://xn--92h.ga/">';
+if($i !== 0) $r .= '<link rel="dns-prefetch" href="http://xn--b3h.ga/">';
 if(!isset($_GET['pause'])) $r .= '<meta http-equiv="Refresh" content="1; url=http://' . LOCAL . $thing[1] . '/">';
 $r .= '<meta property="fb:admins" content="509248955">';
 $r .= '<meta name="apple-mobile-web-app-capable" content="yes">';
 $r .= '<meta name="author" content="Alexander Christiaan Jacob">';
 $r .= '<meta name="description" property="og:description" content="By Alexander Christiaan Jacob, 2012.">';
-$r .= '<meta name="image" property="og:image" content="http://' . LOCAL . 'xn--72h.tk/image.jpg">';
-$r .= '<meta name="title" property="og:title" content="' . $thing[0] . '.tk">';
+$r .= '<meta name="image" property="og:image" content="http://' . LOCAL . 'xn--72h.ga/image.jpg">';
+$r .= '<meta name="title" property="og:title" content="' . $thing[0] . '.ga">';
 $r .= '<meta property="og:type" content="website">';
 $r .= '<meta property="og:url" content="http://' . LOCAL . $thing[2] . '/">';
-$r .= '<title>' . $thing[0] . '.tk</title>';
-$r .= '<link rel="apple-touch-icon-precomposed" href="http://' . LOCAL . 'xn--72h.tk/apple-touch-icon-precomposed.png">';
+$r .= '<title>' . $thing[0] . '.ga</title>';
+$r .= '<link rel="apple-touch-icon-precomposed" href="http://' . LOCAL . 'xn--72h.ga/apple-touch-icon-precomposed.png">';
 $r .= '<link rel="author" href="http://acjs.net/ego/">';
 $r .= '<link rel="canonical" href="http://' . LOCAL . $thing[2] . '/">';
-$r .= '<link rel="shortlink" href="http://' . LOCAL . $thing[0] . '.tk/">';
+$r .= '<link rel="shortlink" href="http://' . LOCAL . $thing[0] . '.ga/">';
 $r .= '<style>';
 $r .= '*{border:0;margin:0;outline:0;padding:0}';
 $r .= 'body,canvas,html{display:block;height:100%;overflow:hidden;width:100%}';
@@ -163,7 +163,7 @@ function init(e)
 
   var _gaq = _gaq || [];
   _gaq.push([\'_setAccount\', \'UA-6227584-49\']);
-  _gaq.push([\'_setDomainName\', \'xn--b3h.tk\']);
+  _gaq.push([\'_setDomainName\', \'xn--b3h.ga\']);
   _gaq.push([\'_setAllowLinker\', true]);
   _gaq.push([\'_trackPageview\']);
 
